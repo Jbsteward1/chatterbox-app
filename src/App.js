@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ContactList from './Components/contact-list';
 
 function App() {
   return (
@@ -19,6 +20,13 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+
+
+function App() {
+  return (
+    <ConntactList />
   );
 }
 
