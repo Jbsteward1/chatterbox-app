@@ -1,12 +1,12 @@
 import './App.css';
 import Groups from './Components/group'
-import './Components/pictures'
+import Messages from './Components/messages'
 
 function App() {
   return (
     <div className="App">
       <Groups name="Gucci Gang" img=""/>
-      <Groups name="Ladies Only" img="./Components/pictures/il_1588xN.3176630014_trsn.jpg"/>
+      <Groups name="Ladies Only" img=""/>
       <Groups name="Family" img=""/>
       <Groups name="Cryto Team" img="" />
       <div className="messages">
@@ -18,3 +18,5 @@ function App() {
     </div>
   )
 }
+
+export default App
