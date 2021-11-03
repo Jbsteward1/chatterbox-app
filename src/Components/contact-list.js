@@ -42,22 +42,12 @@ const Contact = ({firstName, lastName, phoneNumber, date}) => {
 }
 
 const ContactList = () => {
-
     return (
     <ul>
-    {contacts.map((contact) => {
-      return (
-        <li key={contact}>
-          <h3>{contact.first.Name}</h3>
-          <div>
-            <strong>{contact.lastName}</strong>
-          </div>
-          <div>{contact.phone}</div>
-          <div>{contact.date}</div>
-        </li>
-      );
-    })}
-  </ul>;
+        {contacts.map((contact) => {
+        return <Contact {...contact} />
+        })}
+    </ul>
 
 };
 
