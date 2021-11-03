@@ -10,7 +10,7 @@ function App() {
       <Groups name="Family" img=""/>
       <Groups name="Cryto Team" img="" />
       <div className="messages">
-        <Messages name="Candice" content="Lets hang out tonight..." date="5:55pm, yesterday"/>
+        <Messages name="Candy" content="Lets hang out tonight..." date="5:55pm, yesterday"/>
         <Messages name="Mom" content="What would you like for dinner to....." date=" 4:20pm, yesterday"/>
         <Messages name="My Boo" content="Where are you hunny?" date="10:30, 11/1/2020" />
         <Messages name="Little Sis" content="Can i get a ride to work later?" date="1:00, 10/29/2020" />
