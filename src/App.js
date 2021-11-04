@@ -1,6 +1,7 @@
 import './App.css';
 import Groups from './Components/group'
-import './Components/pictures'
+import Messages from './Components/messages'
+
 
 function App() {
   return (
@@ -18,3 +19,4 @@ function App() {
     </div>
   )
 }
+export default App
