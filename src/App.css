@@ -2,6 +2,7 @@
 text-align: center;
 }
 
+<<<<<<< HEAD
 .App-logo {
 height: 40vmin;
 pointer-events: none;
@@ -36,3 +37,10 @@ to {
     transform: rotate(360deg);
 }
 }
+=======
+.credentials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> dc6ed15e3d520b5362c54b3390de91709fa6b095
