@@ -1,6 +1,7 @@
 import './App.css';
 import Groups from './Components/group'
 import Messages from './Components/messages'
+import SignIn from './Components/login';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Messages name="My Boo" content="Where are you hunny?" date="10:30, 11/1/2020" />
         <Messages name="Little Sis" content="Can i get a ride to work later?" date="1:00, 10/29/2020" />
       </div>
+      <SignIn/>
     </div>
   )
 }
