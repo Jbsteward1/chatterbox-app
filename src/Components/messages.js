@@ -6,7 +6,7 @@ class Messages extends React.Component{
         return(
             <div>
                 <div>
-                    <img src={this.props.pic} alt=""></img>
+                    <img src="{this.props.pic}" alt=""></img>
                 </div>
                 <h2>{this.props.name}</h2>
                 <p>{this.props.contents}</p>
