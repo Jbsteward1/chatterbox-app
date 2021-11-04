@@ -15,11 +15,11 @@ section{
     height: 400px;
     background: #fff;
     box-shadow: 0 15px 50px rgba(0,0,0,0.1);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .userSigninBx,
 .userSignupBx{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
@@ -107,22 +107,22 @@ section{
     color: #577eff;
 }
 
-.container .userSignupBx{
+/* .container .userSignupBx{
     pointer-events: none;
 }
 
 .container .active .userSignupBx{
     pointer-events: initial;
-}
+} */
 
-.container .userSignupBx .formBx{
+/* .container .userSignupBx .formBx{
     top: 100%;
-}
+} */
 .container .active .userSignupBx .formBx{
     top: 0;
 }
 .container .userSignupBx .imgBx{
-    top: -100%;
+    /* top: -100%; */
     transition: 0.5s;
 }
 .container .active .userSignupBx .imgBx{
