@@ -7,7 +7,7 @@ class Groups extends React.Component{
         return(
             <div className="groups">
                 <h1>{this.props.name}</h1>
-                <img src={this.prop.src} alt=""></img>
+                <img src="{this.prop.src}" alt=""></img>
             </div>
         )
     }
