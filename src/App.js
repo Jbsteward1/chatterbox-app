@@ -3,8 +3,8 @@ import Group from "./Components/group";
 import Groups from "./Components/landpage";
 import Lists from "./Components/loginPage";
 import Dashboard from "./Components/dashboard";
-import Group from "./Components/group";
 import Messages from "./Components/messages";
+import SignIn from "./Components/login"
 
 const App = () => {
   return (
