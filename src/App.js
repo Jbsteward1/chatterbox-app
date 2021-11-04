@@ -34,7 +34,7 @@ const App = () => {
             </div>
             <SignIn/>
           </div>
-)
+        </div>
+  )
 }
-
 export default App
