@@ -39,7 +39,11 @@ const App = () => {
                         Notifications <span class="badge bg-secondary">4</span>
                 </button>
               </header>
-              <main></main>
+              <main>
+                <div id="LandingText"></div>
+                <div id="LandingPic"></div>
+              </main>
+              <div id="LandingInfo"></div>
             </div>
             <SignIn/>
           </div>
