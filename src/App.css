@@ -62,7 +62,7 @@ to {
 }
 
 header{
-  height: 120px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,14 +72,15 @@ header{
 header img{
   border-radius: 30%;
   height: 90%;
-  width: 8%;
+  width: 6%;
   position: relative;
-  left: 50px;
+  left: 20px;
 }
 
-header button{
+.dropdown{
+  border: none;
   position: relative;
-  right: 75px;
+  right: 50px;
 }
 
 main{
@@ -99,6 +100,7 @@ main{
 }
 
 #LandingPic{
+  border: solid #03032b;
   height: 100%;
   width: 60%;
   background: url(https://img.lovepik.com/photo/50047/4556.jpg_wh860.jpg);

@@ -35,9 +35,16 @@ const App = () => {
             <div className="Landing">
               <header>
                 <img src="http://placekitten.com/100/100" alt="DummyLogo"></img>
-                <button type="button" class="btn btn-primary">
-                        Notifications <span class="badge bg-secondary">4</span>
-                </button>
+                <div className="dropdown">
+                    <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </button>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <li><button className="dropdown-item" type="button">Action</button></li>
+                      <li><button className="dropdown-item" type="button">Another action</button></li>
+                      <li><button className="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                </div>
               </header>
               <main>
                 <div id="LandingText"></div>
