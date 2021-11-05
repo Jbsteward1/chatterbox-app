@@ -32,6 +32,15 @@ const App = () => {
                 <Messages name="My Boo" content="Where are you hunny?" date="10:30, 11/1/2020" />
                 <Messages name="Little Sis" content="Can i get a ride to work later?" date="1:00, 10/29/2020" />
             </div>
+            <div className="Landing">
+              <header>
+                <img src="http://placekitten.com/100/100" alt="DummyLogo"></img>
+                <button type="button" class="btn btn-primary">
+                        Notifications <span class="badge bg-secondary">4</span>
+                </button>
+              </header>
+              <main></main>
+            </div>
             <SignIn/>
           </div>
         </div>

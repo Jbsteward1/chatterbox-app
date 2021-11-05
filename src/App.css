@@ -60,3 +60,29 @@ to {
     align-items: center;
     background: lightblue;
 }
+
+header{
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: darkcyan;
+}
+
+header img{
+  border-radius: 30%;
+  height: 90%;
+  width: 8%;
+  position: relative;
+  left: 50px;
+}
+
+header button{
+  position: relative;
+  right: 75px;
+}
+
+main{
+  height: 800px;
+  background: lightgoldenrodyellow;
+}
