@@ -6,6 +6,7 @@ import Dashboard from "./Components/dashboard";
 import Messages from "./Components/messages";
 import SignIn from "./Components/login"
 
+
 const App = () => {
   return (
     <div className="App">
@@ -16,21 +17,24 @@ const App = () => {
         description="Dont have an account sign uo below"
       />
       <div>
-        <Lists
+
+        <Lists 
           contactName="Bernard James Bartholamule"
           messageList="Thinking of a master plan."
         />
       </div>
       <div>
+        
         <Dashboard numbOfContacts="This is the number of contacts" />
         <Dashboard numbOfMessages="This is the number of messages" />
         <Dashboard numbOfGroups="This is the number of groups" />
+        
 
         <div className="App">
           <Groups name="Gucci Gang" img="" />
           <Groups name="Ladies Only" img="" />
           <Groups name="Family" img="" />
-          <Groups name="Cryto Team" img="" />
+          <Groups name="Crypto Team" img="" />
         </div>
         <div className="App">
           <Groups name="Gucci Gang" src="" />
@@ -38,6 +42,7 @@ const App = () => {
             name="Ladies Only"
             src="./Components/pictures/il_1588xN.3176630014_trsn.jpg"
           />
+          
           <Groups name="Family" src="" />
           <Groups name="Crypto Team" src="" />
         </div>
