@@ -3,6 +3,7 @@ div{
     /* border: solid 2px; */
     float: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .primary{
@@ -12,6 +13,7 @@ div{
     padding: 12px;
     flex-wrap: wrap;
     margin: 12px;
+    
 
 }
 
@@ -58,7 +60,6 @@ to {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: lightblue;
 }
 
 header{

@@ -112,9 +112,9 @@ section{
 
 .container .active .userSignupBx{
     pointer-events: initial;
-} */
+}
 
-/* .container .userSignupBx .formBx{
+.container .userSignupBx .formBx{
     top: 100%;
 } */
 /* .container .active .userSignupBx .formBx{
