@@ -117,14 +117,14 @@ section{
 /* .container .userSignupBx .formBx{
     top: 100%;
 } */
-.container .active .userSignupBx .formBx{
+/* .container .active .userSignupBx .formBx{
     top: 0;
 }
 .container .userSignupBx .imgBx{
-    /* top: -100%; */
+    top: -100%;
     transition: 2s;
-}
-.container .active .userSignupBx .imgBx{
+} */
+/* .container .active .userSignupBx .imgBx{
     top: 0;
 }
 
@@ -140,4 +140,4 @@ section{
 }
 .container .active .userSigninBx .imgBx{
     top: -100%;
-}
+} */
