@@ -57,9 +57,10 @@ to {
 }
 
 .credentials{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header{
