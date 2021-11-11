@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Groups name="Gucci Gang" pics="./pictures/chat/guccigang.jpg"/>
-        <Groups name="Ladies Only" pics="./src/pictures/chat/il_1588xN.3176630014_trsn.jpg"/>
+        <Groups name="Gucci Gang" pics="../pictures/chat/guccigang.jpg"/>
+        <Groups name="Ladies Only" pics="./pictures/chat/il_1588xN.3176630014_trsn.jpg"/>
         <Groups name="Family" pics="./src/pictures/chat/family.png"/>
         <Groups name="Crypto Team" pics="/Users/corcoding/Desktop/projects/chat/src/pictures/chat/crypto.jpeg" />
       </div>
