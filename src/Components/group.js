@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-class Groups extends React.Component{
+class Group extends React.Component{
     render(){
         return(
             <div className="groups">
@@ -12,4 +12,4 @@ class Groups extends React.Component{
 }
 
 
-export default Groups;
+export default Group;

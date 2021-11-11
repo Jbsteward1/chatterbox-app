@@ -1,18 +1,29 @@
-.App {
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+
+div{
+    /* border: solid 2px; */
+    float: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
-/* .groups,
-.message{
-  border: 2px solid black;
-} */
-/* .groups{
-  border: 2px;
-  height: 250px;
-  width: 250px;
+.primary{
+    color: brown;
+    font-family: cursive;
+    float: right;
+    padding: 12px;
+    flex-wrap: wrap;
+    margin: 12px;
+    
+
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
 }
 .message{
   border: 2px;
@@ -39,41 +50,65 @@
 .people{
   height: 150px;
   width: 400px;
-
 }
 
-.pbox{
+.credentials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+  height: 90px;
   display: flex;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: skyblue;
 }
 
-.pbox p{
-  align-self: flex-end;
-  margin-left: 250px;
-}
-h2{
-  position:relative;
-  float: left;
-}
-#date{
-  position:relative;
-  float: right;
+header img{
+  border-radius: 30%;
+  height: 90%;
+  width: 6%;
+  position: relative;
+  left: 20px;
 }
 
-img,
-.people{
-  height: 50px;
-  width: 80px;
+.dropdown{
+  border: none;
+  position: relative;
+  right: 50px;
 }
 
-.groups{
+main{
+  background: #03032b;
+  height: 800px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-h1{
-  order: 2;
+#LandingText{
+  border: 2px white solid;
+  position: relative;
+  left: 60px;
+  height: 80%;
+  width: 30%;
+}
+
+#LandingPic{
+  border: solid #03032b;
+  height: 100%;
+  width: 60%;
+  background: url(https://img.lovepik.com/photo/50047/4556.jpg_wh860.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: none;
+}
+
+#LandingInfo{
+  height: 800px;
+  background: lightsteelblue;
 }
 
 .groups img{
