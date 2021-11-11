@@ -47,10 +47,10 @@ class SignIn extends React.Component{
                             <div className="formBx">
                                 <form>
                                     <h2>Create Account</h2>
-                                    <input type="text" placeholder="Username"/>
-                                    <input type="text" placeholder="Email"/>
-                                    <input type="password" placeholder="Create Password"/>
-                                    <input type="password" placeholder="Confirm Password"/>
+                                    <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1"/>
+                                    <input type="text" class="form-control" placeholder="Email" aria-describedby="sizing-addon1"/>
+                                    <input type="text" class="form-control" placeholder="Create Password" aria-describedby="sizing-addon1"/>
+                                    <input type="text" class="form-control" placeholder="Confirm Password" aria-describedby="sizing-addon1"/>
                                     <input type="submit" value="Sign-up"/>
                                     <p className="signup">Already have an account? <a href=" " onClick={this.toggleForm}>Sign in.</a></p>
                                 </form>
