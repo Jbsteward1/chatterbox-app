@@ -12,7 +12,17 @@ class SignIn extends React.Component{
             signUpFormVisible: false,
         }
 
-        this.toggleForm = this.toggleForm.bind(this);
+        // this.setState = ({
+        //     userName: "",
+        //     Email: "",
+        //     createPassword: "",
+        // })
+
+        // this.toggleForm = this.toggleForm.bind(this);
+        // this._userName = this._userName.bind(this)
+        // this._Email = this._Email.bind(this)
+        // this._createPassword = this._createPassword.bind(this)
+
     }
 
     toggleForm(event) {
@@ -35,9 +45,8 @@ class SignIn extends React.Component{
                                 <form>
                                     <h2>Sign In</h2>
                                     <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1"/>
-                                    <input type="text" placeholder="Username"/>
-                                    <input type="password" placeholder="Password"/>
-                                    <input type="submit" value="Login"/>
+                                    <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon1"/>
+                                    <input type="submit" class="form-control" value="Login"/>
                                     <p className="signup">Don't have an account? <a href=" " onClick={this.toggleForm}>Sign up.</a></p>
                                 </form>
                             </div>
@@ -48,10 +57,10 @@ class SignIn extends React.Component{
                             <div className="formBx">
                                 <form>
                                     <h2>Create Account</h2>
-                                    <input type="text" placeholder="Username"/>
-                                    <input type="text" placeholder="Email"/>
-                                    <input type="password" placeholder="Create Password"/>
-                                    <input type="password" placeholder="Confirm Password"/>
+                                    <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1"/>
+                                    <input type="text" class="form-control" placeholder="Email" aria-describedby="sizing-addon1"/>
+                                    <input type="text" class="form-control" placeholder="Create Password" aria-describedby="sizing-addon1"/>
+                                    <input type="text" class="form-control" placeholder="Confirm Password" aria-describedby="sizing-addon1"/>
                                     <input type="submit" value="Sign-up"/>
                                     <p className="signup">Already have an account? <a href=" " onClick={this.toggleForm}>Sign in.</a></p>
                                 </form>
@@ -62,6 +71,16 @@ class SignIn extends React.Component{
             </div>
         )
     }
+
+    // _updateUserName(event){
+    //     this.setState({userName: event.target.value})
+    // }
+    // _updateEmail(event){
+    //     this.setState({Email: event.target.value})
+    // }
+    // _updateCreatePassword(event){
+    //     this.setState({createPassword: event.target.value})
+    // }
 }
 
 export default SignIn
