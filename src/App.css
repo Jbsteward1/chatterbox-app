@@ -1,4 +1,3 @@
-
 div{
     /* border: solid 2px; */
     float: auto;
@@ -19,17 +18,14 @@ div{
 
 .App {
     text-align: center;
+    width: 176vh;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
 .message{
   border: 2px;
   height: 150px;
   width: 150px;
-} */
+}
 
 
 /* .people{
@@ -113,4 +109,8 @@ main{
 
 .groups img{
   order: 1;
+}
+
+.secondP{
+  display: flex;
 }

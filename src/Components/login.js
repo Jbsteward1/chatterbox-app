@@ -34,8 +34,7 @@ class SignIn extends React.Component{
                             <div className="formBx">
                                 <form>
                                     <h2>Sign In</h2>
-                                   
-  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1"/>
+                                    <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1"/>
                                     <input type="text" placeholder="Username"/>
                                     <input type="password" placeholder="Password"/>
                                     <input type="submit" value="Login"/>

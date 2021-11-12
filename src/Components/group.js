@@ -1,11 +1,17 @@
 import React from 'react'
-import '../App.css'
+import './messages.css'
 class Group extends React.Component{
     render(){
         return(
             <div className="groups">
-                <h1>{this.props.name}</h1>
-                <img className="people" src='{this.prop.pics}' alt=""></img>
+                <div>
+                    <img src="{this.props.pic}" alt=""></img>
+                </div>
+                <div className="pbox">
+                    <h2>{this.props.name}</h2>
+                    <p id="text">{this.props.contents}</p>
+                    <p id="date">{this.props.date}</p>
+                </div>
             </div>
         )
     }
