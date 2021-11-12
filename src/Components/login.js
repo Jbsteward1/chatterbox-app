@@ -12,7 +12,17 @@ class SignIn extends React.Component{
             signUpFormVisible: false,
         }
 
+        this.setState = ({
+            userName: "",
+            Email: "",
+            createPassword: "",
+        })
+
         this.toggleForm = this.toggleForm.bind(this);
+        this._userName = this._userName.bind(this)
+        this._Email = this._Email.bind(this)
+        this._createPassword = this._createPassword.bind(this)
+
     }
 
     toggleForm(event) {
@@ -60,6 +70,16 @@ class SignIn extends React.Component{
                 </section>
             </div>
         )
+    }
+
+    _updateUserName(event){
+        this.setState({userName: event.target.value})
+    }
+    _updateEmail(event){
+        this.setState({Email: event.target.value})
+    }
+    _updateCreatePassword(event){
+        this.setState({createPassword: event.target.value})
     }
 }
 
