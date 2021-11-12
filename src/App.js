@@ -83,12 +83,30 @@ const App = () => {
                 </div>
               </header>
               <main>
-                <div id="LandingText"></div>
+                <div id="LandingText">
+                  <h1>Welcome to ChatterBox</h1>
+                  <p>Sait pans le noir pale au pres sous si va.
+                    Souhaitait sanctifier habilement au hurlements 
+                    or vieillards. Qu erigent laissez ah mouches 
+                    donjons ah le blottis. Ah compagnies la arriverent
+                    du remarquent. Abattre habiles menions crurent sa 
+                    donjons oh. Sapin pic heros car nid annee oui. 
+                    Parlait hagarde dessert on labeurs sentent il. 
+                    Importe aux air eue but allures dociles. Souffre 
+                    fit allures reciter une entiere.</p>
+                </div>
                 <div id="LandingPic"></div>
               </main>
-              <div id="LandingInfo"></div>
+              <div id="LandingInfo">
+                <div id="creativeSpace">
+                  <h2 id="join">Join Our Community</h2>
+                  <div class="power">
+                    <div id="mySection"></div>
+                    <SignIn/>
+                  </div>
+                </div>
+              </div>
             </div>
-            <SignIn/>
         </div>
     </div>
   );

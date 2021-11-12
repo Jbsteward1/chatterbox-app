@@ -1,8 +1,8 @@
 section{
     position: relative;
-    min-height: 50vh;
-    width: 100vh;
-    background-color: lightblue;
+    min-height: 25vh;
+    width: 90vh;
+    background-color: lightsteelblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +11,8 @@ section{
 }
 .container{
     position: relative;
-    width: 800px;
-    height: 400px;
+    width: 850px;
+    height: 500px;
     border: none;
     box-shadow: 0 15px 50px rgba(0,0,0,0.1);
 }
@@ -105,39 +105,3 @@ section{
     text-decoration: none;
     color: #577eff;
 }
-
-/* .container .userSignupBx{
-    pointer-events: none;
-}
-
-.container .active .userSignupBx{
-    pointer-events: initial;
-}
-
-.container .userSignupBx .formBx{
-    top: 100%;
-}
-.container .active .userSignupBx .formBx{
-    top: 0;
-}
-.container .userSignupBx .imgBx{
-    top: -100%;
-    transition: 2s;
-}
-.container .active .userSignupBx .imgBx{
-    top: 0;
-}
-
-.container .userSigninBx .formBx{
-    top: 0;
-}
-.container .active .userSigninBx .formBx{
-    top: 100%;
-}
-.container .userSigninBx .imgBx{
-    top: 0;
-    transition: 2s;
-}
-.container .active .userSigninBx .imgBx{
-    top: -100%;
-} */
