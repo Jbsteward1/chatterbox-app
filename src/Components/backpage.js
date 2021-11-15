@@ -1,4 +1,4 @@
-import React from 'react'
+comminimport React from 'react'
 import Group from './group'
 import './messages.css'
 
