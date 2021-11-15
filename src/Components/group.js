@@ -3,21 +3,14 @@ import './messages.css'
 class Group extends React.Component{
     render(){
         return(
-            <div className="groups">
-                <header class="header">
-                    <h4 class="title">Groups</h4>
-                    <small class="subtitle">Search name</small>
-                    <input type="text" id="filter" placeholder="Search"/>
-                </header>
             <ul id="result"class="user-list">
                 <li class=""/>
-                    <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Sara"/>
+                    <img src={this.props.src} alt="Name"/>
                     <div class="user-info">
-                        <h4>Sara Smith</h4>
-                        <p>Wexford, Ireland</p>
+                        <h4>{this.props.name}</h4>
+                        <p>{this.props.location}</p>
                     </div>
             </ul>
-            </div>
         )
     }
 }
