@@ -4,14 +4,19 @@ class Group extends React.Component{
     render(){
         return(
             <div className="groups">
-                <div>
-                    <img src="{this.props.pic}" alt=""></img>
-                </div>
-                <div className="pbox">
-                    <h2>{this.props.name}</h2>
-                    <p id="text">{this.props.contents}</p>
-                    <p id="date">{this.props.date}</p>
-                </div>
+                <header class="header">
+                    <h4 class="title">Groups</h4>
+                    <small class="subtitle">Search name</small>
+                    <input type="text" id="filter" placeholder="Search"/>
+                </header>
+            <ul id="result"class="user-list">
+                <li class=""/>
+                    <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Sara"/>
+                    <div class="user-info">
+                        <h4>Sara Smith</h4>
+                        <p>Wexford, Ireland</p>
+                    </div>
+            </ul>
             </div>
         )
     }
