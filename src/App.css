@@ -6,30 +6,14 @@ div{
     
 }
 
-.primary{
-    color: brown;
-    font-family: cursive;
-    float: right;
-    padding: 12px;
-    flex-wrap: wrap;
-    margin: 12px;
-    
-
-}
-
 .App {
     text-align: center;
+    background: lightcyan;
 }
 
 .App-logo {
     height: 40vmin;
     pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-.App-logo {
-    animation: App-logo-spin infinite 20s linear;
-}
 }
 
 .App-header {
@@ -41,19 +25,6 @@ div{
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-}
-
-.App-link {
-    color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-from {
-    transform: rotate(0deg);
-}
-to {
-    transform: rotate(360deg);
-}
 }
 
 .credentials{
@@ -158,4 +129,56 @@ main{
   border: 2px solid black;
   height: 65vh;
   width: 75vh;
+}
+
+.dummyP{
+  display: flex;
+  justify-content: space-between;
+}
+
+#dash,
+.sides{
+  border: 2px solid black;
+}
+
+.sides{
+  height: 100vh;
+  width: 20%;
+}
+
+.sides h1{
+  border-bottom: 2px solid black;
+}
+
+.sides button{
+  border: none;
+  border-radius: 10%;
+  background: lightskyblue;
+  height: 50px;
+  width: 90%;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.Bside{
+  border-bottom: solid black;
+  height: 38%;
+}
+
+.inSide{
+  overflow: scroll;
+}
+
+#mmk{
+  height: 40%;
+}
+
+#dash{
+  height: 150px;
+  width: 58%
+}
+
+.dashCon{
+  display: flex;
+  justify-content: space-around;
 }

@@ -5,10 +5,8 @@ class Groups extends React.Component{
     render(){
         return(
             <div>
-                <div className="primary">
-                    <h1>{this.props.name}</h1>
-                    <p>{this.props.description}</p>
-                </div>
+                <h2>{this.props.name}</h2>
+                <p>{this.props.description}</p>
             </div>
         )
     }

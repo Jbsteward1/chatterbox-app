@@ -6,8 +6,7 @@ class Lists extends React.Component{
         return(
             <div className="secondary">
                 <h1>{this.props.contactName}</h1>
-                <p>{this.props.messageList}</p>
-                
+                <p>{this.props.occupation}</p>
             </div>
         )
     }
